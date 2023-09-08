@@ -1,0 +1,24 @@
+DOI: 10.5281/zenodo.8307369 
+SOFTWARE: gromacs
+SOFTWARE_VERSION: VERSION 5.1.4 
+FF: Slipids
+FF_SOURCE: https://doi.org/10.1021/jp212503e 
+TRJ: 100ns.xtc
+TPR: md50ns_chunk01.tpr
+PREEQTIME: 50 ns
+TIMELEFTOUT: 0
+DIR_WRK: /Users/ffavela/Documents/GitHub/DataBank/
+COMPOSITION:
+  CHOL:
+    NAME: CHL1
+    MAPPING: mappingCHOLESTEROLcharmm.txt
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCcharmm.txt
+  PSM:
+    NAME: SM16
+    MAPPING: mappingSM16charmm.txt
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.txt
+AUTHORS_CONTACT: Anika Wurl
